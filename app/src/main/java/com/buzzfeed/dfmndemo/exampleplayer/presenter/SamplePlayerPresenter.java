@@ -2,7 +2,6 @@ package com.buzzfeed.dfmndemo.exampleplayer.presenter;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;
-import android.support.annotation.CallSuper;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.Surface;
@@ -67,7 +66,6 @@ public final class SamplePlayerPresenter implements SampleVideoPlayer.Listener,
         Toast.makeText(mAppContext, "An error occurred.", Toast.LENGTH_SHORT).show();
     }
 
-    @CallSuper
     public void preparePlayer() {
         if (mVideoPlayer == null) {
             mVideoPlayer = new SampleVideoPlayer(getRendererBuilder());
@@ -88,7 +86,6 @@ public final class SamplePlayerPresenter implements SampleVideoPlayer.Listener,
         mVideoPlayer.setPlayWhenReady(true);
     }
 
-    @CallSuper
     public void releasePlayer() {
         if (mVideoPlayer != null) {
             mPlayerPosition = mVideoPlayer.getCurrentPosition();
