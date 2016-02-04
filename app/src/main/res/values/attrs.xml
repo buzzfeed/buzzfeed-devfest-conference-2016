@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BaseTheme">
+        <attr name="actionBarIconColor" format="color"/>
+        <attr name="actionBarInsetStart" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SampleCard">
+        <attr name="sampleTitle" format="string" />
+        <attr name="sampleSubtitle" format="string" />
+        <attr name="sampleColor" format="color" />
+    </declare-styleable>
+
+</resources>

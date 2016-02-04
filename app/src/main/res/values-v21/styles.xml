@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ExamplePlayer" parent="Theme.ExamplePlayer.Base">
+        <item name="android:navigationBarColor">#000</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation">@dimen/toolbar_elevation</item>
+    </style>
+
+    <style name="Theme.ExamplePlayer.Player" parent="Theme.ExamplePlayer">
+        <item name="android:statusBarColor">#000</item>
+    </style>
+
+</resources>

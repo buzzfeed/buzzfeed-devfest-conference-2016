@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#3B3E49</color>
+
+    <color name="theme_primary">#494D5A</color>
+    <color name="theme_primary_dark">#424551</color>
+    <color name="theme_accent_1">#FEE557</color>
+
+    <color name="body_text_1">#deffffff</color>
+
+    <color name="light_divider">#33FFFFFF</color>
+
+    <color name="sample_card_one">#EB6642</color>
+    <color name="sample_card_two">#62C8CD</color>
+    <color name="sample_card_three">#A371B1</color>
+
+</resources>

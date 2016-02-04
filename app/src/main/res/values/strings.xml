@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ExamplePlayer</string>
+
+    <!-- Sample Videos -->
+
+    <string name="sample_card_one_title">Sample Video 1</string>
+    <string name="sample_card_two_title">Sample Video 2</string>
+    <string name="sample_card_three_title">Sample Video 3</string>
+    <string name="sample_card_subtitle_hls">HLS</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- body content -->
+    <dimen name="content_padding_normal">16dp</dimen>
+
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+
+    <!-- toolbar -->
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <!-- sample card  -->
+    <dimen name="sample_card_corner_radius">10dp</dimen>
+    <dimen name="sample_card_elevation">2dp</dimen>
+    <dimen name="sample_card_title_text">24sp</dimen>
+    <dimen name="sample_card_subtitle_text">18sp</dimen>
+
+</resources>

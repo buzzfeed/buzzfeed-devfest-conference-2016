@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="FrameworkRoot.Theme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="FrameworkRoot.Widget" parent="Theme.AppCompat.NoActionBar"/>
+
+    <!-- Parent Theme -->
+
+    <style name="Theme" parent="FrameworkRoot.Theme"/>
+
+    <style name="Theme.ExamplePlayer.Base" parent="Theme">
+        <item name="actionBarInsetStart">@dimen/keyline_1</item>
+
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent_1</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ExamplePlayer" parent="Theme.ExamplePlayer.Base"/>
+
+    <!-- Toolbar Theme -->
+
+    <style name="ToolbarThemeOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlNormal">?actionBarIconColor</item>
+        <item name="colorControlHighlight">#3fff</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:background">?colorPrimary</item>
+    </style>
+
+    <style name="SampleCard" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">@dimen/content_padding_normal</item>
+        <item name="android:layout_marginRight">@dimen/content_padding_normal</item>
+        <item name="android:layout_marginTop">@dimen/content_padding_normal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Activity Themes -->
+
+    <style name="Theme.ExamplePlayer.Chooser" parent="Theme.ExamplePlayer"/>
+
+    <style name="Theme.ExamplePlayer.Player" parent="Theme.ExamplePlayer"/>
+
+</resources>

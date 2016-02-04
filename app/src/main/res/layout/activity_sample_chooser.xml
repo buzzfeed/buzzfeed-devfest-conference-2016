@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_actionbar"/>
+
+    <com.buzzfeed.dfmndemo.exampleplayer.ui.widget.SampleCard
+        android:id="@+id/button_sample_one"
+        style="@style/SampleCard"
+        app:sampleColor="@color/sample_card_one"
+        app:sampleSubtitle="@string/sample_card_subtitle_hls"
+        app:sampleTitle="@string/sample_card_one_title"/>
+
+    <com.buzzfeed.dfmndemo.exampleplayer.ui.widget.SampleCard
+        android:id="@+id/button_sample_two"
+        style="@style/SampleCard"
+        app:sampleColor="@color/sample_card_two"
+        app:sampleSubtitle="@string/sample_card_subtitle_hls"
+        app:sampleTitle="@string/sample_card_two_title"/>
+
+
+    <com.buzzfeed.dfmndemo.exampleplayer.ui.widget.SampleCard
+        android:id="@+id/button_sample_three"
+        style="@style/SampleCard"
+        android:layout_marginBottom="@dimen/content_padding_normal"
+        app:sampleColor="@color/sample_card_three"
+        app:sampleSubtitle="@string/sample_card_subtitle_hls"
+        app:sampleTitle="@string/sample_card_three_title"/>
+
+</LinearLayout>
