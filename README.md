@@ -26,9 +26,9 @@ Android Studio
 --------------
 
  * If you do not have Android Studio installed, get it here -- http://developer.android.com/sdk/index.html.
- * This project requires APK level 23.
+ * This project requires SDK level 23, and Build Tools version 23.x.x.
  * Android Studio is quite good at suggesting solutions for missing SDKs and Plugins.
- * Go to   Android Studio's pulldown for Tools -> Android -> SDK Manager, then select Launch Stand Alone SDK Manager.
+ * If you need to add/update SDKs, go to Android Studio's pulldown for Tools -> Android -> SDK Manager, then select Launch Stand Alone SDK Manager.
 
 
 
